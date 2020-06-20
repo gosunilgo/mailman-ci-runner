@@ -42,10 +42,7 @@ cd /tmp/cpython-master
 # Remove the git clone.
 rm -r /tmp/cpython-master && rm /tmp/master.zip
 
-# Install Python 3.4, 3.5, 3.6, 2.7
-get_install $PYTHON_34_VER
-get_install $PYTHON_35_VER
-get_install $PYTHON_36_VER
+# Install Python 3.7 3.8
 get_install $PYTHON_37_VER
 get_install $PYTHON_38_VER
 
